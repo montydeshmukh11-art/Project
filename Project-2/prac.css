@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: aqua;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+nav:hover{
+   box-shadow: 0 0 10px gray;
+   transition: all 1s ;
+}
+.img1{
+  margin-top:11px ;
+  margin-left: 10px;
+  height: 50px;width: 50px;
+  border-radius: 10px;
+}
+.img1:hover{
+   box-shadow: 0 0 10px gray;
+   transition: all 0.5s ease;
+}
+.anchor{
+  display: flex;
+  /* justify-self: right; */
+  align-items: center;
+  gap: 15px;
+  margin-left:auto;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  font-family: cursive;
+  transition: all 0.2s ease;
+  color: black;
+  border: 1px solid;
+  margin-right: 10px;
+}
+a:hover{
+  background-color: bisque;
+  transform: translateY(2px);
+}
+
+.con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+  /* margin-top: 100px; */
+  gap: 50px;
+  background-color: lightcyan;
+}
+.con:hover{
+  box-shadow: 0 0 10px gray;
+  transition: all 0.5s;
+  transform: translateY(-3px);
+}
+.sub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+text-align: justify;
+  
+}
+.Laundary{
+  width: 200px;
+}
+
+h3{
+  margin: 20px;
+}
+.T{
+  /* border: 1px solid; */
+  margin-top: 70px;
+}
+li{
+  font-size: 1.1rem;
+  margin-left: 20px;
+  border: 1px solid;
+}
+.submit{
+  margin-top: 20px;
+}
+input:hover{
+  background-color: antiquewhite;
+  transition: all 0.5s;
+  transform: translateY(-4px);
+  box-shadow: 0 0 10px gray;
+}
